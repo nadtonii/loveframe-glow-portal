@@ -37,6 +37,19 @@ export default function Index() {
           </a>
         </div>
       </div>
+      <div style={{ alignItems: 'center', alignSelf: 'stretch', boxSizing: 'border-box', contain: 'layout', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: 16, height: 'fit-content', justifyContent: 'start', overflowWrap: 'break-word', paddingBlock: 0, paddingInline: 0, transformOrigin: '50% 50%', width: 'auto' }}>
+        <div style={{ alignItems: 'center', alignSelf: 'stretch', boxSizing: 'border-box', contain: 'layout', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: 0, height: 'fit-content', justifyContent: 'center', overflowWrap: 'break-word', paddingBlock: 0, paddingInline: 0, transformOrigin: '50% 50%', width: 'auto' }}>
+          <div style={{ boxSizing: 'border-box', color: '#525252', flexShrink: '0', fontFamily: '"Instrument Sans", system-ui, sans-serif', fontSize: '16px', fontSynthesis: 'none', fontWeight: 500, height: 'fit-content', lineHeight: '150%', MozOsxFontSmoothing: 'grayscale', transformOrigin: '50% 50%', WebkitFontSmoothing: 'antialiased', whiteSpace: 'pre-wrap', width: '350px' }}>
+            We always start with research because designing something beautiful that nobody needs is a waste of your time and money.{'\n \n'}We&apos;d rather spend a few weeks understanding what your users actually want, so when we design, we know it&apos;ll work.
+          </div>
+        </div>
+        <div style={{ backgroundColor: '#ddd', boxSizing: 'border-box', flexShrink: '0', height: '1px', transformOrigin: '50% 50%', width: '336px' }} />
+        <div style={{ alignItems: 'center', alignSelf: 'stretch', boxSizing: 'border-box', contain: 'layout', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: 0, height: 'fit-content', justifyContent: 'center', overflowWrap: 'break-word', paddingBlock: 0, paddingInline: 0, transformOrigin: '50% 50%', width: 'auto' }}>
+          <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Instrument Sans", system-ui, sans-serif', fontSize: '16px', fontSynthesis: 'none', fontWeight: 500, height: 'fit-content', lineHeight: '150%', MozOsxFontSmoothing: 'grayscale', transformOrigin: '50% 50%', WebkitFontSmoothing: 'antialiased', whiteSpace: 'pre-wrap', width: '350px' }}>
+            Our research and design process starts at €8,000–10,000.{'\n\n'}This includes user research, validation, and the design work
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
