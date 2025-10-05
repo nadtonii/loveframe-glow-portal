@@ -50,7 +50,7 @@ export default function Index() {
           <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Instrument Sans", system-ui, sans-serif', fontSize: '16px', fontSynthesis: 'none', fontWeight: 500, height: 'fit-content', lineHeight: '150%', MozOsxFontSmoothing: 'grayscale', transformOrigin: '50% 50%', WebkitFontSmoothing: 'antialiased', whiteSpace: 'pre-wrap', width: '350px' }}>
             Our research and design process starts at €8,000–10,000.
             {'\n\n'}
-            This includes user research, validation, and the design work
+            This includes user research, validation, and the design work.
           </div>
         </div>
       </div>
