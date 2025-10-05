@@ -2,8 +2,8 @@ import { GrainGradient } from '@paper-design/shaders-react';
 
 export default function Index() {
   return (
-    <div className="pb-5 md:pb-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', boxSizing: 'border-box', contain: 'content', display: 'flex', flexDirection: 'column', gap: 16, justifyContent: 'center', overflowWrap: 'break-word', paddingBlock: 16, paddingInline: 16, transformOrigin: '0% 0%', width: '100vw' }}>
-      <div style={{ alignSelf: 'stretch', borderRadius: '32px', boxSizing: 'border-box', contain: 'layout', height: '100vh', overflowWrap: 'break-word', transformOrigin: '50% 50%', width: 'auto', position: 'relative' }}>
+    <div className="pb-5 md:pb-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', boxSizing: 'border-box', contain: 'content', display: 'flex', flexDirection: 'column', gap: 16, height: 'auto', justifyContent: 'center', overflowWrap: 'break-word', paddingBlock: 16, paddingInline: 16, transformOrigin: '0% 0%', width: '100vw' }}>
+      <div style={{ alignSelf: 'stretch', borderRadius: '32px', boxSizing: 'border-box', contain: 'layout', height: '100vh', overflowWrap: 'break-word', transformOrigin: '50% 50%', width: 'auto', position: 'relative', flexShrink: 0 }}>
         <GrainGradient 
           colors={['#D30003', '#FFA395', '#FF8676', '#BE0003']} 
           colorBack="#00000000" 
